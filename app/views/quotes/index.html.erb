@@ -1,0 +1,9 @@
+<h1>These are a few of my favorite things</h1>
+
+<ul id="quote-list">
+  <%= render @quotes %>
+</ul>
+
+<p><%= link_to "New Quote", new_quote_path, remote: true %></p>
+
+<div id="quote-form"></div>
